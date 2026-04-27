@@ -7,7 +7,7 @@ const itemRoutes = require('./routes/items.js');
 const app = express();
 
 app.use(cors({
-    origin: ["https://netlify.app", "http://localhost:5000"]
+    origin: ["https://wmt-mern-item-manager.netlify.app", "http://localhost:5173"]
 }));
 app.use(express.json());
 
